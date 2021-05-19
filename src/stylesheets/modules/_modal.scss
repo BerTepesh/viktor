@@ -71,9 +71,14 @@
 
 .success-modal {
 	text-align: center;
-	padding: 3.6rem 4rem;
-	max-width: 37.2rem;
+	padding: 3.6rem 3rem;
+	max-width: 32.2rem;
 	overflow: visible;
+
+	@include media-breakpoint-up(sm) {
+		padding: 3.6rem 4rem;
+		max-width: 37.2rem;
+	}
 
 	@include media-breakpoint-up(lg) {
 		padding: 3.6rem 7rem;
@@ -98,9 +103,14 @@
 
 	h3 {
 		font-weight: 700;
-		font-size: 28px;
-		line-height: 38px;
+		font-size: 22px;
+		line-height: 30px;
 		margin-bottom: 0.7rem;
+
+		@include media-breakpoint-up(sm) {
+			font-size: 28px;
+			line-height: 38px;
+		}
 
 		@include media-breakpoint-up(lg) {
 			font-size: 40px;
@@ -110,9 +120,14 @@
 	}
 
 	&__subtitle {
-		font-size: 22px;
-		line-height: 30px;
+		font-size: 18px;
+		line-height: 28px;
 		margin-bottom: 7.5rem;
+
+		@include media-breakpoint-up(sm) {
+			font-size: 22px;
+			line-height: 30px;
+		}
 
 		@include media-breakpoint-up(lg) {
 			font-size: 33px;

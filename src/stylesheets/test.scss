@@ -11,6 +11,10 @@
 		padding-top: 40px;
 		padding-bottom: 40px;
 
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
 		@include media-breakpoint-up(md) {
 			height: 100vh;
 		}
@@ -76,3 +80,5 @@
 		margin-bottom: 20px;
 	}
 }
+
+@import "modules/test/preface";
